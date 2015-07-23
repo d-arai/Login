@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"/>
+  <title>ログイン前</title>
+</head>
+<body>
+  <h2>ログイン</h2>
+  <form action="/login" method="GET">
+    <input type="text" name="email" placeholder="Email"/>
+    <input type="password" name="password" placeholder="Password"/>
+    <input type="submit" value="ログイン"/>
+  </form>
+
+  <h2>アカウント登録</h2>
+  <form action="/add" method="POST">
+    <input type="text" name="email" placeholder="Email"/>
+    <input type="password" name="password" placeholder="Password"/>
+    <input type="submit" value="登録"/>
+  </form>
+
+  <h2>アカウント削除</h2>
+  <form action="/delete" method="POST">
+    <input type="text" name="email" placeholder="Email"/>
+    <input type="password" name="password" placeholder="Password"/>
+    <input type="submit" value="削除"/>
+  </form>
+</body>
+</html>
